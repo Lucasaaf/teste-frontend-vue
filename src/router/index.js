@@ -9,7 +9,7 @@ import users from '@/views/UsersView.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   routes: [
     { path: '/', component: HomePost },
     { path: '/details/:id', component: Details },
